@@ -1,22 +1,57 @@
-📊 Smartwatch Health Data Cleaning - Kaggle Practice
-This notebook focuses on cleaning and preprocessing a smartwatch health dataset. The goal is to prepare raw health-tracking data for further analysis and machine learning.
+# 🩺 Smartwatch Health Data Cleaning - Kaggle Practice
 
-✅ Key Tasks Completed:
-Handling Missing Data: Used median for numerical columns and mode for categorical columns.
+This project focuses on cleaning real-world smartwatch health data to make it ready for further analysis or machine learning modeling. It's part of my hands-on practice using Python and Pandas on Kaggle.
 
-Data Type Fixes: Converted object types to float and category where needed.
+## 📊 Dataset Description
+The dataset contains health-related information collected from a smartwatch. It includes features like:
+- Heart Rate
+- Sleep Duration
+- Body Temperature
+- Blood Oxygen Level
+- Steps
+- and more...
 
-Outlier Detection & Handling:
+## 🛠️ Data Cleaning Tasks Performed
+- ✅ **Handling Missing Values**  
+  Used mean/mode/median for numerical and categorical columns.
+  
+- ✅ **Data Transformation**  
+  Converted columns into appropriate data types.
 
-Removed outliers in Heart Rate (BPM) using IQR method
+- ✅ **Encoding Categorical Variables**  
+  Used label encoding for binary categories.
 
-Capped outliers in Step Count and Blood Oxygen Level (%) using Winsorization
+- ✅ **Outlier Detection & Handling**  
+  Visualized outliers using box plots and handled where necessary.
 
-Data Standardization: Ensured consistent formatting across all features.
+- ✅ **Exporting Cleaned Data**  
+  Final cleaned dataset saved as `cleaned_smartwatch_health_data.csv`.
 
-🔧 Tools & Libraries Used:
-Python (Pandas, NumPy, Seaborn, Matplotlib)
+## 🔍 Tools & Technologies
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Kaggle Notebooks
 
-Jupyter Notebook
+## 🚀 Link to Kaggle Notebook
+📎 [Smartwatch Health Data Cleaning - Kaggle](https://www.kaggle.com/code/sushmasandanshiv/smartwatch-health-data-cleaning)
 
-Kaggle
+## 📂 Folder Structure
+📁 Smartwatch-Health-Data-Cleaning/
+├── 📓 smartwatch_health_datacleaning.ipynb
+├── 📄 cleaned_smartwatch_health_data.csv
+└── 📄 README.md
+
+
+## 📌 Status
+✅ Completed and uploaded to both Kaggle and GitHub for portfolio use.
+
+## 🙋‍♀️ Author
+**Sushma Sandanshiv**  
+📫 [LinkedIn](https://www.linkedin.com/in/sushma-sandanshiv-2740422b7) | 🐍 [GitHub](https://github.com/sushma-prog)
+
+---
+
+⭐ If you like this project, don’t forget to star the repo!
